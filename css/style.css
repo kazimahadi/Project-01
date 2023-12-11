@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    background-color: #ffffff;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.nav-bar {
+    display: flex;
+    background-color: #faf9e3;
+    justify-content: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding-top: 20px;
+}
+
+.social {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    background-color: #faf9e3;
+}
+
+.social li a {
+    font-size: 30px;
+    color: #f85114;
+}
+
+.social li a:hover {
+    color: black;
+}
+
+.nav-button li a:hover {
+    background-color: black;
+}
+
+.nav-button {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+}
+
+section {
+    background-color: #faf9e3;
+    display: flex;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+.about-me {
+    width: 60%;
+    padding: 0px 30px 30px 50px;
+}
+
+.about-me h1 {
+    color: #f85114;
+    font-size: 30px;
+}
+
+.about-me h2 {
+    color: black;
+    font-size: 30px;
+    font-family: font-family: 'Delicious Handrawn', cursive;
+}
+
+.about-me p {
+    color: black;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.projects {
+    background-color: #faf9e3;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.about-projects {
+    width: 100%;
+    padding: 0px 60px 0px 60px;
+    text-align: center;
+}
+
+.about-projects h1 {
+    color: #f85114;
+    font-size: 30px;
+}
+
+.about-projects p {
+    color: black;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 30px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 20px;
+    padding: 0px 100px 30px 100px;
+}
+
+.gallery img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.my-face {
+    width: 30%;
+    padding: 30px 30px 30px 50px;
+
+}
+
+.my-face img {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 90%;
+}
+
+.button {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    background-color: #f85114;
+    border-radius: 7px;
+    padding: 10px 20px;
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+}
